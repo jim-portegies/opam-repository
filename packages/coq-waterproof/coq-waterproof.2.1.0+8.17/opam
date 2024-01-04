@@ -22,7 +22,7 @@ dev-repo: "git+https://github.com/impermeable/coq-waterproof.git"
 bug-reports: "https://github.com/impermeable/coq-waterproof/issues"
 
 depends: [
-  "ocaml" {>= "4.14.1"}
+  "ocaml" {>= "4.09.0"}
   "coq" {>= "8.17" & < "8.18"}
   "dune" {>= "3.6."}
 ]
@@ -45,9 +45,9 @@ tags: [
 ]
 url {
   src:
-    "https://github.com/impermeable/coq-waterproof/archive/refs/tags/2.1.0+8.17.tar.gz"
+    "https://github.com/impermeable/coq-waterproof/archive/refs/tags/2.1.1+8.17.tar.gz"
   checksum: [
-    "md5=3b6a903bec36a3ea30b3a9ca32a71813"
-    "sha512=3d50ded6597b19c73a2fb7a4908ef33d7b38894879a655e158adbf3818e6dab657bffd11929c0f9a9b4f9fac87ef89995ff14fe51f3b72337a9847681d3c6c94"
+    "md5=bd86897cd91ab8253a08790a30022e08"
+    "sha512=df74c8bcc9710d31332b33d8642225080866a645c6122d8fb8def327304e794d6c760afc08ae72a90275558d26fd8db5a50fad9838425ae7bb194f273bbfc6de"
   ]
 }
